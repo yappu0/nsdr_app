@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.zazen-container {
+    height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zazen {
+    position: relative;
+    margin: 20px;
+}
+
+.dod {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255 255 255);
+    border: 1px solid rgb(147 197 253);
+    border-radius: 50%;
+}
+
+.dod.is-done {
+    background-color: rgb(219 234 254);
+}
+
+.dod1 {
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dod2 {
+    top: 9.64%;
+    left: 85.36%;
+    transform: translate(-50%, -50%);
+}
+
+.dod3 {
+    top: 50%;
+    left: 104%;
+    transform: translate(-50%, -50%);
+}
+
+.dod4 {
+    top: 88.36%;
+    left: 88.36%;
+    transform: translate(-50%, -50%);
+}
+
+.dod5 {
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dod6 {
+    top: 87.36%;
+    left: 10.64%;
+    transform: translate(-50%, -50%);
+}
+
+.dod7 {
+    top: 50%;
+    left: -4%;
+    transform: translate(-50%, -50%);
+}
+
+.dod8 {
+    top: 9.64%;
+    left: 13.64%;
+    transform: translate(-50%, -50%);
+}
+
+.dod9 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
